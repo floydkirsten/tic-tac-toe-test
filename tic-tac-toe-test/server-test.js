@@ -37,8 +37,14 @@ function move(button) {
         if (successfulMove) document.getElementById(button).innerHTML = XorO; 
     }
     else if (button == 9) {
-        psuccessfulMove = playerMove(2,2);
+        successfulMove = playerMove(2,2);
         if (successfulMove) document.getElementById(button).innerHTML = XorO; 
+    }
+
+    if (currentPlayer == 1) {
+        document.getElementById('turn-text').innerHTML = "Player 1's Turn";
+    } else {
+        document.getElementById('turn-text').innerHTML = "Player 2's Turn";
     }
 
 }
@@ -82,7 +88,7 @@ function playerMove(row, column) { // Performs a move for the current player
         checkWin();
         if (currentPlayer == 1) currentPlayer = 2; // Changes current player
         else currentPlayer = 1;
-        return 1; 
+        return 1;
     }
 
 }
@@ -106,11 +112,13 @@ function win(winner) { // Makes changes to the game if a player has won
         playerOneWins ++;
         previousLoser = 2;
         window.alert("Player 1 Wins!");
+        document.getElementById('oneWins').innerHTML = "Player 1 wins: " + playerOneWins;
     }
     else if (winner == 2) { // Player 2 is the winner
         playerTwoWins ++;
         previousLoser = 1;
         window.alert("Player 2 Wins!");
+        document.getElementById('twoWins').innerHTML = "Player 2 wins: " + playerTwoWins;
     }
     else { // There was a draw
         draws ++;
@@ -138,4 +146,8 @@ function reset() { // Resets the game board but not the wins
     for(var i=1;i<10;i++) {
         document.getElementById(i).innerHTML = '';
     }
+}
+
+function resetWins() {
+
 }
