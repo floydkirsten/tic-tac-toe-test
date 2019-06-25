@@ -1,3 +1,4 @@
+/*
 var http = require('http');
 var fs = require('fs');
 
@@ -21,7 +22,7 @@ http.createServer(function(req, res) {
     }
 
 }).listen(8000);
-
+*/
 
 //let WebSocket = require('ws');
 //let wss = new WebSocket.Server({port:8000})
