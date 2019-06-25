@@ -103,6 +103,7 @@ function win(winner) { // Makes changes to the game if a player has won
         if (previousLoser == 1) previousLoser = 2;
         else previousLoser = 1;
         window.alert("It's a Draw!");
+        document.getElementById('draws').innerHTML = "Draws: " + draws; 
     }
     gameOver = 1;
 }
