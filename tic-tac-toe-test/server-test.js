@@ -23,12 +23,12 @@ http.createServer(function(req, res) {
 }).listen(8000);
 
 
-let WebSocket = require('ws');
-let wss = new WebSocket.Server({port:8000})
+//let WebSocket = require('ws');
+//let wss = new WebSocket.Server({port:8000})
 
-wss.on('connection', ws => {
-    ws.on('message', message => {
-        console.log('Recieved message => ${message}')
-    })
-    ws.send('hello')
-})
+//wss.on('connection', ws => {
+//   ws.on('message', message => {
+//        console.log('Recieved message => ${message}')
+//    })
+//    ws.send('hello')
+//})
