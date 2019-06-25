@@ -79,6 +79,7 @@
             if (previousLoser == 1) previousLoser = 2;
             else previousLoser = 1;
             window.alert("It's a Draw!");
+            document.getElementById('draws').innerHTML = "Draws: " + draws;
         }
         gameOver = 1;
     }
@@ -112,12 +113,9 @@
         playerTwoWins = 0;
         document.getElementById('oneWins').innerHTML = "Player 1 wins: " + playerOneWins;
         document.getElementById('twoWins').innerHTML = "Player 2 wins: " + playerTwoWins;
+
     }
 </script>
-
-
-
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -181,7 +179,8 @@
     <strong> Scoreboard </strong> <br>
 
     <div id="oneWins"> Player 1 wins: 0 </div>
-    <div id="twoWins"> Player 2 wins: 0 </div> <br>
+    <div id="twoWins"> Player 2 wins: 0 </div>
+    <div id="draws"> Draws: 0 </div> <br>
 
     <div class="restartButton">
         <button id="reset" onclick=resetWins()> Reset Wins </button>
