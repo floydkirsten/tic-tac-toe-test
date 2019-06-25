@@ -110,7 +110,8 @@ function reset() { // Resets the game board but not the wins
 function resetWins() {
     playerOneWins = 0;
     playerTwoWins = 0;
+    draws = 0;
     document.getElementById('oneWins').innerHTML = "Player 1 wins: " + playerOneWins;
     document.getElementById('twoWins').innerHTML = "Player 2 wins: " + playerTwoWins;
-
+    document.getElementById('draws').innerHTML = "Draws: " + draws;
 }
