@@ -78,11 +78,6 @@ function playerMove(row, column) { // Performs a move for the current player
         else currentPlayer = 1;
     }
 
-    if (currentPlayer == 1) {
-        document.getElementById(turn-text).innerHTML = "Player 1's Turn";
-    } else {
-        document.getElementById(turn-text).innerHTML = "Player 2's Turn";
-    }
 }
 
 function checkWin() { // Checks to see if a win condition has been met
