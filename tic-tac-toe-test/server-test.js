@@ -70,13 +70,18 @@ function playerMove(row, column) { // Performs a move for the current player
     if(board[row][column] != 0) // Checks if there the selected space has already been selected
     {
         window.alert("That space has already been chosen!");
-    }
-    else if (gameOver) window.alert("The game is over!"); // Checks if the game is already over
+    } else if (gameOver) window.alert("The game is over!"); // Checks if the game is already over
     else {
         board[row][column] = currentPlayer; // Sets the correct space to the current player
         checkWin();
         if (currentPlayer == 1) currentPlayer = 2; // Changes current player
         else currentPlayer = 1;
+    }
+
+    if (currentPlayer == 1) {
+        document.getElementById(turn-text).innerHTML = "Player 1's Turn";
+    } else {
+        document.getElementById(turn-text).innerHTML = "Player 2's Turn";
     }
 }
 
