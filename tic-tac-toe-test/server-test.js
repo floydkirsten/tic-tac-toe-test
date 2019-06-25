@@ -50,8 +50,8 @@ function checkWin() { // Checks to see if a win condition has been met
     else if (checkEqual(board[1])) win(board[1][0]); // Checks the second row
     else if (checkEqual(board[2])) win(board[2][0]); // Checks the third row
     else if (checkEqual([board[0][0], board[1][0], board[2][0]])) win(board[0][0]); // Checks the first column
-    else if (checkEqual([board[0][1], board[1][1], board[2][1]])) win(board[0][0]); // Checks the second column
-    else if (checkEqual([board[0][2], board[1][2], board[2][2]])) win(board[0][0]); // Checks the third column
+    else if (checkEqual([board[0][1], board[1][1], board[2][1]])) win(board[0][1]); // Checks the second column
+    else if (checkEqual([board[0][2], board[1][2], board[2][2]])) win(board[0][2]); // Checks the third column
     else if (checkEqual([board[0][0], board[1][1], board[2][2]])) win(board[0][0]); // Checks the first diagonal
     else if (checkEqual([board[2][0], board[1][1], board[0][2]])) win(board[2][0]); // Checks the second diagonal
     else if (turnNumber == 9) win(0); // Ends the game if there is a draw
