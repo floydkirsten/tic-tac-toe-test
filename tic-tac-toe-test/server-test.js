@@ -1,48 +1,3 @@
-function move(button) {
-    let XorO;
-    let successfulMove; 
-    if (currentPlayer == 1) XorO = 'X';
-    else XorO = 'O';
-    
-    if (button == 1) {
-        successfulMove = playerMove(0,0);
-        if (successfulMove) document.getElementById(button).innerHTML = XorO; 
-    }
-    else if (button == 2) {
-        successfulMove = playerMove(0,1);
-        if (successfulMove) document.getElementById(button).innerHTML = XorO; 
-    }
-    else if (button == 3) {
-        successfulMove = playerMove(0,2);
-        if (successfulMove) document.getElementById(button).innerHTML = XorO; 
-    }
-    else if (button == 4) {
-        successfulMove = playerMove(1,0);
-        if (successfulMove) document.getElementById(button).innerHTML = XorO; 
-    }
-    else if (button == 5) {
-        successfulMove = playerMove(1,1);
-        if (successfulMove) document.getElementById(button).innerHTML = XorO; 
-    }
-    else if (button == 6) {
-        successfulMove = playerMove(1,2);
-        if (successfulMove) document.getElementById(button).innerHTML = XorO; 
-    }
-    else if (button == 7) {
-        successfulMove = playerMove(2,0);
-        if (successfulMove) document.getElementById(button).innerHTML = XorO; 
-    }
-    else if (button == 8) {
-        successfulMove = playerMove(2,1);
-        if (successfulMove) document.getElementById(button).innerHTML = XorO; 
-    }
-    else if (button == 9) {
-        psuccessfulMove = playerMove(2,2);
-        if (successfulMove) document.getElementById(button).innerHTML = XorO; 
-    }
-
-}
-
 var board = [ // 2D array signifying the board
     [0, 0, 0],
     [0, 0, 0],
@@ -67,28 +22,26 @@ function getDraws() { return draws; } // Returns the number of draws
 function setDraws(draws) { draws = draws; } // Sets the number of draws
 
 
-function playerMove(row, column) { // Performs a move for the current player
+function move(row, column, button) { // Performs a move for the current player
     if (gameOver) { 
         window.alert("The game is over!"); // Checks if the game is already over
-        return 0; 
     }
     else if(board[row][column] != 0) // Checks if there the selected space has already been selected
     {
         window.alert("That space has already been chosen!");
-        return 0; 
     }
     else {
+        document.getElementById(button).innerHTML = currentPlayer == 1 ? 'X' : 'O'; 
         board[row][column] = currentPlayer; // Sets the correct space to the current player
         checkWin();
         if (currentPlayer == 1) currentPlayer = 2; // Changes current player
         else currentPlayer = 1;
-        return 1; 
     }
 
     if (currentPlayer == 1) {
-        document.getElementById(turn-text).innerHTML = "Player 1's Turn";
+        document.getElementById("turnText").innerHTML = "Player 1's Turn";
     } else {
-        document.getElementById(turn-text).innerHTML = "Player 2's Turn";
+        document.getElementById("turnText").innerHTML = "Player 2's Turn";
     }
 }
 
@@ -143,4 +96,8 @@ function reset() { // Resets the game board but not the wins
     for(var i=1;i<10;i++) {
         document.getElementById(i).innerHTML = '';
     }
+}
+
+function update() {
+
 }
