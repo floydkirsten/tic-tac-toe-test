@@ -2,7 +2,146 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba97b149-d09a-4d4f-8660-f04b21c40768" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/display-test.html" beforeDir="false" afterPath="$PROJECT_DIR$/display-test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/src/inspector-log.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-typedarray/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-typedarray/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-typedarray/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-typedarray/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-typedarray/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/asyncworker.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/buffers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/callback.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/converters.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/errors.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/json.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/maybe_types.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/methods.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/new.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/node_misc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/object_wrappers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/persistent.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/scopes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/script.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/string_bytes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/v8_internals.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/v8_misc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/include_dirs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_callbacks.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_callbacks_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_callbacks_pre_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_converters.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_converters_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_converters_pre_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_define_own_property_helper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_implementation_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_implementation_pre_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_json.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_maybe_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_maybe_pre_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_new.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_object_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_persistent_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_persistent_pre_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_string_bytes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_typedarray_contents.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_weak.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/tools/1to2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/tools/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/tools/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/typedarray-to-buffer/.airtap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/typedarray-to-buffer/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/typedarray-to-buffer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/typedarray-to-buffer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/typedarray-to-buffer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/typedarray-to-buffer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/typedarray-to-buffer/test/basic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/binding.gyp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/build/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/build/Release/.deps/Release/obj.target/bufferutil/src/bufferutil.o.d.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/build/binding.Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/build/bufferutil.target.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/build/config.gypi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/build/gyp-mac-tool" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/build/validation.target.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/builderror.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/lib/BufferUtil.fallback.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/lib/BufferUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/lib/Deprecation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/lib/Validation.fallback.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/lib/Validation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/lib/W3CWebSocket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/lib/WebSocketClient.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/lib/WebSocketConnection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/lib/WebSocketFrame.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/lib/WebSocketRequest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/lib/WebSocketRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/lib/WebSocketRouterRequest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/lib/WebSocketServer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/lib/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/lib/version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/lib/websocket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/src/bufferutil.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/src/validation.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/websocket/vendor/FastBufferList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/buffer-util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/constants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/event-target.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/extension.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/permessage-deflate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/receiver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/sender.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/validation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/websocket-server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/lib/websocket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ws/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yaeti/.jscsrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yaeti/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yaeti/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yaeti/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yaeti/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yaeti/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yaeti/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yaeti/lib/Event.browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yaeti/lib/Event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yaeti/lib/EventTarget.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yaeti/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +156,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server-test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+            <state relative-caret-position="408">
+              <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,7 +177,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style-test.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="583">
@@ -59,7 +201,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="306" />
+    <option name="x" value="81" />
     <option name="y" value="23" />
     <option name="width" value="1279" />
     <option name="height" value="949" />
@@ -119,16 +261,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561477779531</updated>
-      <workItem from="1561477780805" duration="4122000" />
+      <workItem from="1561477780805" duration="4515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4122000" />
+    <option name="totallyTimeSpent" value="4515000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-156" y="23" width="1279" height="949" extended-state="0" />
-    <editor active="true" />
+    <frame x="81" y="23" width="1279" height="949" extended-state="0" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -164,13 +305,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server-test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/display-test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1755">
@@ -182,6 +316,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="583">
           <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
