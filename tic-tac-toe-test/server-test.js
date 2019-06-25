@@ -39,9 +39,9 @@ function move(row, column, button) { // Performs a move for the current player
     }
 
     if (currentPlayer == 1) {
-        document.getElementById('turn-Text').innerHTML = "Player 1's Turn";
+        document.getElementById('turn-text').innerHTML = "Player 1's Turn";
     } else {
-        document.getElementById('turn-Text').innerHTML = "Player 2's Turn";
+        document.getElementById('turn-text').innerHTML = "Player 2's Turn";
     }
 }
 
