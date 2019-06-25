@@ -1,31 +1,43 @@
 function move(button) {
+    let XorO;
+    if (currentPlayer == 1) XorO = 'X';
+    else XorO = 'O';
+    
     if (button == 1) {
         playerMove(0,0);
-
+        document.getElementById(button).innerHTML = XorO; 
     }
     else if (button == 2) {
-
+        playerMove(0,1);
+        document.getElementById(button).innerHTML = XorO; 
     }
     else if (button == 3) {
-
+        playerMove(0,2);
+        document.getElementById(button).innerHTML = XorO; 
     }
     else if (button == 4) {
-
+        playerMove(1,0);
+        document.getElementById(button).innerHTML = XorO; 
     }
     else if (button == 5) {
-
+        playerMove(1,1);
+        document.getElementById(button).innerHTML = XorO; 
     }
     else if (button == 6) {
-
+        playerMove(1,2);
+        document.getElementById(button).innerHTML = XorO; 
     }
     else if (button == 7) {
-
+        playerMove(2,0);
+        document.getElementById(button).innerHTML = XorO; 
     }
     else if (button == 8) {
-
+        playerMove(2,1);
+        document.getElementById(button).innerHTML = XorO; 
     }
     else if (button == 9) {
-
+        playerMove(2,2);
+        document.getElementById(button).innerHTML = XorO; 
     }
 
 }
