@@ -1,43 +1,44 @@
 function move(button) {
     let XorO;
+    let successfulMove; 
     if (currentPlayer == 1) XorO = 'X';
     else XorO = 'O';
     
     if (button == 1) {
-        playerMove(0,0);
-        document.getElementById(button).innerHTML = XorO; 
+        successfulMove = playerMove(0,0);
+        if (successfulMove) document.getElementById(button).innerHTML = XorO; 
     }
     else if (button == 2) {
-        playerMove(0,1);
-        document.getElementById(button).innerHTML = XorO; 
+        successfulMove = playerMove(0,1);
+        if (successfulMove) document.getElementById(button).innerHTML = XorO; 
     }
     else if (button == 3) {
-        playerMove(0,2);
-        document.getElementById(button).innerHTML = XorO; 
+        successfulMove = playerMove(0,2);
+        if (successfulMove) document.getElementById(button).innerHTML = XorO; 
     }
     else if (button == 4) {
-        playerMove(1,0);
-        document.getElementById(button).innerHTML = XorO; 
+        successfulMove = playerMove(1,0);
+        if (successfulMove) document.getElementById(button).innerHTML = XorO; 
     }
     else if (button == 5) {
-        playerMove(1,1);
-        document.getElementById(button).innerHTML = XorO; 
+        successfulMove = playerMove(1,1);
+        if (successfulMove) document.getElementById(button).innerHTML = XorO; 
     }
     else if (button == 6) {
-        playerMove(1,2);
-        document.getElementById(button).innerHTML = XorO; 
+        successfulMove = playerMove(1,2);
+        if (successfulMove) document.getElementById(button).innerHTML = XorO; 
     }
     else if (button == 7) {
-        playerMove(2,0);
-        document.getElementById(button).innerHTML = XorO; 
+        successfulMove = playerMove(2,0);
+        if (successfulMove) document.getElementById(button).innerHTML = XorO; 
     }
     else if (button == 8) {
-        playerMove(2,1);
-        document.getElementById(button).innerHTML = XorO; 
+        successfulMove = playerMove(2,1);
+        if (successfulMove) document.getElementById(button).innerHTML = XorO; 
     }
     else if (button == 9) {
-        playerMove(2,2);
-        document.getElementById(button).innerHTML = XorO; 
+        psuccessfulMove = playerMove(2,2);
+        if (successfulMove) document.getElementById(button).innerHTML = XorO; 
     }
 
 }
@@ -67,16 +68,21 @@ function setDraws(draws) { draws = draws; } // Sets the number of draws
 
 
 function playerMove(row, column) { // Performs a move for the current player
-    if(board[row][column] != 0) // Checks if there the selected space has already been selected
+    if (gameOver) { 
+        window.alert("The game is over!"); // Checks if the game is already over
+        return 0; 
+    }
+    else if(board[row][column] != 0) // Checks if there the selected space has already been selected
     {
         window.alert("That space has already been chosen!");
+        return 0; 
     }
-    else if (gameOver) window.alert("The game is over!"); // Checks if the game is already over
     else {
         board[row][column] = currentPlayer; // Sets the correct space to the current player
         checkWin();
         if (currentPlayer == 1) currentPlayer = 2; // Changes current player
         else currentPlayer = 1;
+        return 1; 
     }
 }
 
@@ -98,21 +104,24 @@ function win(winner) { // Makes changes to the game if a player has won
     if (winner == 1) { // Player 1 is the winner
         playerOneWins ++;
         previousLoser = 2;
+        window.alert("Player 1 Wins!");
     }
     else if (winner == 2) { // Player 2 is the winner
         playerTwoWins ++;
         previousLoser = 1;
+        window.alert("Player 2 Wins!");
     }
     else { // There was a draw
         draws ++;
         if (previousLoser == 1) previousLoser = 2;
         else previousLoser = 1;
+        window.alert("It's a Draw!");
     }
     gameOver = 1;
 }
 
 function checkEqual(row) { // Checks if the input array is equal at all elements
-    if(row[0] == row[1] && row[1] == row[2]) return true;
+    if(row[0] == row[1] && row[1] == row[2] && row[0] != 0) return true;
     return false;
 }
 
