@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TIC-TAC-TOE</title>
+    <link href='style-test.css' type='text/css' rel='stylesheet'>
+</head>
+<body>
+<script src="server-test.js"></script>
+<script type="module" src="board.js"></script>
+<div id="title">
+    <label> TIC-TAC-TOE </label>
+</div>
+<div class="currentPlayer">
+    <div id="turn">
+        <label> Player 1's turn</label>
+    </div>
+</div>
+
+<table>
+    <tr>
+        <th>
+            <button class="boardButton" id="1" onclick=hello(1)> X </button>
+        </th>
+        <th>
+            <button class="boardButton" id="2" onclick=hello(2)> O </button>
+        </th>
+        <th>
+            <button class="boardButton" id="3" onclick=hello(3)>  </button>
+        </th>
+    </tr>
+    <tr>
+        <th>
+            <button class="boardButton" id="4" onclick=hello(4)>  </button>
+        </th>
+        <th>
+            <button class="boardButton" id="5" onclick=hello(5)>  </button>
+        </th>
+        <th>
+            <button class="boardButton" id="6" onclick=hello(6)>  </button>
+        </th>
+    </tr>
+    <tr>
+        <th>
+            <button class="boardButton" id="7" onclick=hello(7)>  </button>
+        </th>
+        <th>
+            <button class="boardButton" id="8" onclick=hello(8)>  </button>
+        </th>
+        <th>
+            <button class="boardButton" id="9" onclick=hello(9)>  </button>
+        </th>
+    </tr>
+
+</table>
+<div class="restartButton">
+    <button id="resetBoard" onclick=reset()> Restart game </button>
+</div>
+
+<div id="scoreboard">
+    <strong> Scoreboard </strong> <br>
+
+    <div id="oneWins"> Wins for Player 1: </div>
+    <div id="twoWins"> Wins for Player 2: </div> <br>
+
+    <div class="restartButton">
+        <button id="reset" onclick=> Reset Wins </button>
+    </div>
+</div>
+
+</body>
+</html>
