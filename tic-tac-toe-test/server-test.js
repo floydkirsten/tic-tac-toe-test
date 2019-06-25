@@ -23,7 +23,6 @@ http.createServer(function(req, res) {
 }).listen(8000);
 
 
-
 //game
 var board = [ // 2D array signifying the board
     [0, 0, 0],
