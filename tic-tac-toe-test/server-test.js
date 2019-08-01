@@ -21,21 +21,3 @@ http.createServer(function(req, res) {
     }
 
 }).listen(8000);
-
-/*
-var express = require('express'),
-    app = express()
-http = require('http').Server(app);
-
-app.use(express.static('public'));
-
-app.get('/', function (req,res) {
-    res.sendFile(__dirname + '/display-test.html');
-});
-
-let port = 8000;
-
-http.listen(port, function () {
-    console.log('Tic-tac-toe on port 8000');
-});
-*/
